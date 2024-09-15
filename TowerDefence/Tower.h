@@ -1,8 +1,7 @@
 #pragma once
 #include "GameObject.h"
 
-class Tower :
-    public GameObject
+class Tower :   public GameObject
 {
 protected:
     int level;

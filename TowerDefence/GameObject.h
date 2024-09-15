@@ -11,6 +11,7 @@ class GameObject
 protected:
 	int id;
 	Vector2 position;
+	int size_radius;
 	// Texture image
 
 public:

@@ -3,20 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\AnatoliyGG\\source\\repos\\TowerDefence\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{32E153D4-076B-4955-9B95-D45A75571304}|TowerDefence\\TowerDefence.vcxproj|C:\\Users\\AnatoliyGG\\source\\repos\\TowerDefence\\TowerDefence\\Projectile.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{32E153D4-076B-4955-9B95-D45A75571304}|TowerDefence\\TowerDefence.vcxproj|solutionrelative:TowerDefence\\Projectile.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{32E153D4-076B-4955-9B95-D45A75571304}|TowerDefence\\TowerDefence.vcxproj|C:\\Users\\AnatoliyGG\\source\\repos\\TowerDefence\\TowerDefence\\Tower.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{32E153D4-076B-4955-9B95-D45A75571304}|TowerDefence\\TowerDefence.vcxproj|solutionrelative:TowerDefence\\Tower.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{32E153D4-076B-4955-9B95-D45A75571304}|TowerDefence\\TowerDefence.vcxproj|C:\\Users\\AnatoliyGG\\source\\repos\\TowerDefence\\TowerDefence\\MSG.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{32E153D4-076B-4955-9B95-D45A75571304}|TowerDefence\\TowerDefence.vcxproj|solutionrelative:TowerDefence\\MSG.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{32E153D4-076B-4955-9B95-D45A75571304}|TowerDefence\\TowerDefence.vcxproj|C:\\Users\\AnatoliyGG\\source\\repos\\TowerDefence\\TowerDefence\\GameObject.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{32E153D4-076B-4955-9B95-D45A75571304}|TowerDefence\\TowerDefence.vcxproj|solutionrelative:TowerDefence\\GameObject.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{32E153D4-076B-4955-9B95-D45A75571304}|TowerDefence\\TowerDefence.vcxproj|C:\\Users\\AnatoliyGG\\source\\repos\\TowerDefence\\TowerDefence\\Tower.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{32E153D4-076B-4955-9B95-D45A75571304}|TowerDefence\\TowerDefence.vcxproj|solutionrelative:TowerDefence\\Tower.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{32E153D4-076B-4955-9B95-D45A75571304}|TowerDefence\\TowerDefence.vcxproj|C:\\Users\\AnatoliyGG\\source\\repos\\TowerDefence\\TowerDefence\\GameObject.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -25,6 +17,22 @@
     {
       "AbsoluteMoniker": "D:0:0:{32E153D4-076B-4955-9B95-D45A75571304}|TowerDefence\\TowerDefence.vcxproj|C:\\Users\\AnatoliyGG\\source\\repos\\TowerDefence\\TowerDefence\\MSG.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{32E153D4-076B-4955-9B95-D45A75571304}|TowerDefence\\TowerDefence.vcxproj|solutionrelative:TowerDefence\\MSG.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32E153D4-076B-4955-9B95-D45A75571304}|TowerDefence\\TowerDefence.vcxproj|C:\\Users\\AnatoliyGG\\source\\repos\\TowerDefence\\TowerDefence\\Tower.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{32E153D4-076B-4955-9B95-D45A75571304}|TowerDefence\\TowerDefence.vcxproj|solutionrelative:TowerDefence\\Tower.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32E153D4-076B-4955-9B95-D45A75571304}|TowerDefence\\TowerDefence.vcxproj|C:\\Users\\AnatoliyGG\\source\\repos\\TowerDefence\\TowerDefence\\Projectile.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{32E153D4-076B-4955-9B95-D45A75571304}|TowerDefence\\TowerDefence.vcxproj|solutionrelative:TowerDefence\\Projectile.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32E153D4-076B-4955-9B95-D45A75571304}|TowerDefence\\TowerDefence.vcxproj|C:\\Users\\AnatoliyGG\\source\\repos\\TowerDefence\\TowerDefence\\MSG.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{32E153D4-076B-4955-9B95-D45A75571304}|TowerDefence\\TowerDefence.vcxproj|solutionrelative:TowerDefence\\MSG.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32E153D4-076B-4955-9B95-D45A75571304}|TowerDefence\\TowerDefence.vcxproj|C:\\Users\\AnatoliyGG\\source\\repos\\TowerDefence\\TowerDefence\\GameObject.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{32E153D4-076B-4955-9B95-D45A75571304}|TowerDefence\\TowerDefence.vcxproj|solutionrelative:TowerDefence\\GameObject.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 163,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,7 +50,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "GameObject.h",
               "DocumentMoniker": "C:\\Users\\AnatoliyGG\\source\\repos\\TowerDefence\\TowerDefence\\GameObject.h",
               "RelativeDocumentMoniker": "TowerDefence\\GameObject.h",
@@ -55,7 +63,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "MSG.h",
               "DocumentMoniker": "C:\\Users\\AnatoliyGG\\source\\repos\\TowerDefence\\TowerDefence\\MSG.h",
               "RelativeDocumentMoniker": "TowerDefence\\MSG.h",
@@ -68,26 +76,39 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Tower.h",
               "DocumentMoniker": "C:\\Users\\AnatoliyGG\\source\\repos\\TowerDefence\\TowerDefence\\Tower.h",
               "RelativeDocumentMoniker": "TowerDefence\\Tower.h",
-              "ToolTip": "C:\\Users\\AnatoliyGG\\source\\repos\\TowerDefence\\TowerDefence\\Tower.h",
-              "RelativeToolTip": "TowerDefence\\Tower.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAdAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\AnatoliyGG\\source\\repos\\TowerDefence\\TowerDefence\\Tower.h*",
+              "RelativeToolTip": "TowerDefence\\Tower.h*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-09-14T10:07:41.869Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Projectile.h",
+              "DocumentMoniker": "C:\\Users\\AnatoliyGG\\source\\repos\\TowerDefence\\TowerDefence\\Projectile.h",
+              "RelativeDocumentMoniker": "TowerDefence\\Projectile.h",
+              "ToolTip": "C:\\Users\\AnatoliyGG\\source\\repos\\TowerDefence\\TowerDefence\\Projectile.h*",
+              "RelativeToolTip": "TowerDefence\\Projectile.h*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-09-15T07:48:40.395Z",
               "EditorCaption": ""
             }
           ]
         },
         {
           "DockedWidth": 237,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "GameObject.cpp",
               "DocumentMoniker": "C:\\Users\\AnatoliyGG\\source\\repos\\TowerDefence\\TowerDefence\\GameObject.cpp",
               "RelativeDocumentMoniker": "TowerDefence\\GameObject.cpp",
@@ -100,28 +121,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "MSG.cpp",
               "DocumentMoniker": "C:\\Users\\AnatoliyGG\\source\\repos\\TowerDefence\\TowerDefence\\MSG.cpp",
               "RelativeDocumentMoniker": "TowerDefence\\MSG.cpp",
               "ToolTip": "C:\\Users\\AnatoliyGG\\source\\repos\\TowerDefence\\TowerDefence\\MSG.cpp",
               "RelativeToolTip": "TowerDefence\\MSG.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-09-14T09:58:24.619Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Tower.cpp",
               "DocumentMoniker": "C:\\Users\\AnatoliyGG\\source\\repos\\TowerDefence\\TowerDefence\\Tower.cpp",
               "RelativeDocumentMoniker": "TowerDefence\\Tower.cpp",
               "ToolTip": "C:\\Users\\AnatoliyGG\\source\\repos\\TowerDefence\\TowerDefence\\Tower.cpp",
               "RelativeToolTip": "TowerDefence\\Tower.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-09-14T10:07:49.528Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Projectile.cpp",
+              "DocumentMoniker": "C:\\Users\\AnatoliyGG\\source\\repos\\TowerDefence\\TowerDefence\\Projectile.cpp",
+              "RelativeDocumentMoniker": "TowerDefence\\Projectile.cpp",
+              "ToolTip": "C:\\Users\\AnatoliyGG\\source\\repos\\TowerDefence\\TowerDefence\\Projectile.cpp*",
+              "RelativeToolTip": "TowerDefence\\Projectile.cpp*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-09-15T07:49:38.335Z",
               "EditorCaption": ""
             }
           ]
