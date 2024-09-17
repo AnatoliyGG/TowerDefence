@@ -17,6 +17,7 @@ private:
 public:
 	static Manager* GetInstance();
 	static void Destroy();
-};
 
-Manager* Manager::instance = nullptr;
+	void Update(float dt);
+	void SendMsg(MSG* m);
+};

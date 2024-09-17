@@ -26,6 +26,6 @@ public:
 	int ID();
 
 	virtual void Update(float dt) = 0;
-	virtual void SendMsg(MSG m) = 0;
+	virtual void SendMsg(MSG* m) = 0;
 	void Draw();
 };

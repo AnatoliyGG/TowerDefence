@@ -1,14 +1,18 @@
 #include "Manager.h"
 
-Manager::Manager()
+Manager* Manager::instance = nullptr;
+
+Manager::Manager() : objs(), msgs()
 {
+
 }
 
 Manager::~Manager()
 {
+
 }
 
-Manager::	(const Manager&)
+Manager::Manager(const Manager&)
 {
 	for (auto x : objs)
 	{
@@ -32,4 +36,30 @@ Manager* Manager::GetInstance()
 void Manager::Destroy()
 {
 	if (instance) delete instance;
+}
+
+void Manager::Update(float dt)
+{
+	for (auto obj : objs)
+	{
+		obj->Update(dt);
+	}
+
+	for (auto m : msgs)
+	{
+		switch (m.type)
+		{
+			;
+		}
+
+		for (auto obj : objs)
+		{
+			obj->SendMsg(MSG* m);
+		}
+	}
+}
+
+void Manager::SendMsg(MSG* m)
+{
+	msgs.push_back(m);
 }
