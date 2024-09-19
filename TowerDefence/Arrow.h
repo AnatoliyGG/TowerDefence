@@ -15,4 +15,3 @@ public:
 	void Update(float dt);
 	void SendMsg(MSG* m);
 };
-

@@ -16,6 +16,6 @@ void Arrow::Update(float dt)
 {
 }
 
-void Arrow::SendMsg(MSG m)
+void Arrow::SendMsg(MSG* m)
 {
 }

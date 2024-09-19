@@ -54,7 +54,7 @@ void Manager::Update(float dt)
 
 		for (auto obj : objs)
 		{
-			obj->SendMsg(MSG* m);
+			obj->SendMsg(m);
 		}
 	}
 }

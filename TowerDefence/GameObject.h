@@ -1,10 +1,11 @@
 #pragma once
-#include "MSG.h"
 
 struct Vector2
 {
 	float x, y;
 };
+
+class MSG;
 
 class GameObject
 {

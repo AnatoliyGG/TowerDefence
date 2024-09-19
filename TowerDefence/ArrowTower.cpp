@@ -16,7 +16,7 @@ void ArrowTower::Update(float dt)
 {
 }
 
-void ArrowTower::SendMsg(MSG m)
+void ArrowTower::SendMsg(MSG* m)
 {
 }
 
