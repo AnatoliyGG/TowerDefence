@@ -1,4 +1,7 @@
 #include "Manager.h"
+#include <algorithm.h>
+
+using namespace std;
 
 Manager* Manager::instance = nullptr;
 
@@ -47,14 +50,31 @@ void Manager::Update(float dt)
 
 	for (auto m : msgs)
 	{
-		switch (m.type)
+		switch (m->type)
 		{
-			;
+		case MsgType::Death:
+		{
+			auto res = find(objs.begin(), objs.end(), m->death.who_to_die);
+			delete* res;
+			objs.erase(res);
+		} break;
+
+		case MsgType::Create:
+		{
+			objs.push_back(m->create.new_object);
+
+		} break;
+
+
 		}
 
-		for (auto obj : objs)
+		if (m->type == MsgType::Move ||
+			m->type == MsgType::DealDmg)
 		{
-			obj->SendMsg(m);
+			for (auto obj : objs)
+			{
+				obj->SendMsg(m);
+			}
 		}
 	}
 }

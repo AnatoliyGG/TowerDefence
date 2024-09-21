@@ -3,7 +3,7 @@
 
 enum class MsgType {Move, Death, Create, DealDmg};
 
-class MSG
+struct MSG
 {
 	MsgType type;
 	GameObject* sender;
@@ -20,5 +20,11 @@ class MSG
 		struct {
 			GameObject* new_object;
 		} create;
+		
+		struct {
+			float damage;
+			GameObject* to_who;
+			GameObject* by_whom;
+		} deal_dmg;
 	};
 };

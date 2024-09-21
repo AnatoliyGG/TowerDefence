@@ -5,7 +5,7 @@ struct Vector2
 	float x, y;
 };
 
-class MSG;
+struct MSG;
 
 class GameObject
 {
