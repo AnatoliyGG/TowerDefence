@@ -1,6 +1,6 @@
 #pragma once
 
-struct Vector2
+struct MyVector2
 {
 	float x, y;
 };
@@ -11,7 +11,7 @@ class GameObject
 {
 protected:
 	int id;
-	Vector2 position;
+	MyVector2 position;
 	int size_radius;
 	// Texture image
 
@@ -22,8 +22,8 @@ public:
 	GameObject(const GameObject&);
 	virtual ~GameObject();
 	
-	void Position(Vector2 new_pos);
-	Vector2 Position();
+	void Position(MyVector2 new_pos);
+	MyVector2 Position();
 	int ID();
 
 	virtual void Update(float dt) = 0;

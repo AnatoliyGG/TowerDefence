@@ -5,9 +5,9 @@ class Projectile :	public GameObject
 {
 protected:
 	float damage;
-	Vector2 direction;
+	MyVector2 direction;
 	float velocity;
-	Vector2 target_position;
+	MyVector2 target_position;
 
 public:
 	Projectile();

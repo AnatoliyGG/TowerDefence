@@ -9,7 +9,7 @@ struct MSG
 	GameObject* sender;
 	union {
 		struct {
-			Vector2 old_position;
+			MyVector2 old_position;
 		} mode;
 		
 		struct {

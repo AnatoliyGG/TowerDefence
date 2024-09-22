@@ -17,13 +17,13 @@ GameObject::~GameObject()
 {
 }
 
-void GameObject::Position(Vector2 new_pos)
+void GameObject::Position(MyVector2 new_pos)
 {
 }
 
-Vector2 GameObject::Position()
+MyVector2 GameObject::Position()
 {
-	return Vector2();
+	return MyVector2();
 }
 
 int GameObject::ID()
@@ -35,7 +35,7 @@ void GameObject::Update(float dt)
 {
 }
 
-void GameObject::SendMsg(MSG m)
+void GameObject::SendMsg(MSG* m)
 {
 }
 

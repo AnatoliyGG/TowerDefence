@@ -1,5 +1,5 @@
 #include "Manager.h"
-#include <algorithm.h>
+#include <algorithm>
 
 using namespace std;
 
@@ -64,7 +64,6 @@ void Manager::Update(float dt)
 			objs.push_back(m->create.new_object);
 
 		} break;
-
 
 		}
 
