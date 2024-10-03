@@ -20,4 +20,5 @@ public:
 
 	void Update(float dt);
 	void SendMsg(MSG* m);
+	void DrawObjects(sf::RenderWindow& win);
 };

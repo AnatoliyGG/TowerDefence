@@ -9,9 +9,16 @@ int main()
 {
 	RenderWindow win(VideoMode(800, 600), "TowerDefence");
 
-	sleep(seconds(3));
-
-	win.close();
+	while (win.isOpen())
+	{
+		sf::Event event;
+		while (win.pollEvent(event))
+		{
+			if (event.type == sf::Event::Closed) win.close();
+		}
+		win.clear();
+		win.display();
+	}
 
 	cout << "Creating manager" << endl;
 	Manager* mgr = Manager::GetInstance();

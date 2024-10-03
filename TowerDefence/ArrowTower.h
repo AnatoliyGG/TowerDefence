@@ -4,7 +4,7 @@
 class ArrowTower : public Tower
 {
 public:
-	ArrowTower();
+	ArrowTower(sf::Vector2f position, int level);
 	ArrowTower(const ArrowTower&);
 	~ArrowTower();
 

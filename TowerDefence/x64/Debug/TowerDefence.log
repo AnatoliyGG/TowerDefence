@@ -1,11 +1,2 @@
-﻿  Arrow.cpp
-  ArrowTower.cpp
-  Enemy.cpp
-  GameObject.cpp
-  MSG.cpp
-  Manager.cpp
-  Projectile.cpp
-  Source.cpp
-  Tower.cpp
-  Generating Code...
+﻿  Source.cpp
   TowerDefence.vcxproj -> C:\Users\AnatoliyGG\source\repos\TowerDefence\x64\Debug\TowerDefence.exe

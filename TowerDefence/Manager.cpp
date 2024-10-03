@@ -82,3 +82,11 @@ void Manager::SendMsg(MSG* m)
 {
 	msgs.push_back(m);
 }
+
+void Manager::DrawObjects(sf::RenderWindow& win)
+{
+	for (auto obj : objs)
+	{
+		obj->Draw(win);
+	}
+}

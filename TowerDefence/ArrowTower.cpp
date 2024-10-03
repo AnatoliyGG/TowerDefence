@@ -1,6 +1,9 @@
 #include "ArrowTower.h"
 
-ArrowTower::ArrowTower()
+using namespace sf;
+
+ArrowTower::ArrowTower(sf::Vector2f position, int level):
+	Tower(position, 50, LoadTexture("images\\TowerOne", {0, 0, 128, 128}), level, 100 * level, 1.0f, 200.f)
 {
 }
 
