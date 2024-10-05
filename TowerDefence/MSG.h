@@ -9,7 +9,7 @@ struct MSG
 	GameObject* sender;
 	union {
 		struct {
-			MyVector2 old_position;
+			sf::Vector2f old_position;
 		} mode;
 		
 		struct {
@@ -27,4 +27,6 @@ struct MSG
 			GameObject* by_whom;
 		} deal_dmg;
 	};
+
+	MSG();
 };

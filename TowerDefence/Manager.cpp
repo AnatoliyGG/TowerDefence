@@ -48,8 +48,12 @@ void Manager::Update(float dt)
 		obj->Update(dt);
 	}
 
-	for (auto m : msgs)
+	MSG* m;
+	while (!msgs.empty())
 	{
+		m = msgs.front();
+		msgs.pop_front();
+
 		switch (m->type)
 		{
 		case MsgType::Death:
@@ -75,6 +79,8 @@ void Manager::Update(float dt)
 				obj->SendMsg(m);
 			}
 		}
+
+		delete m;
 	}
 }
 

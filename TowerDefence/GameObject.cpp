@@ -27,7 +27,7 @@ GameObject::GameObject(sf::Vector2f position, float size_radius, sf::Texture* te
 	position(position), size_radius(size_radius), sprite(*texture)
 {
 	Vector2u tex_size = sprite.getTexture()->getSize();
-	sprite.setOrigin(tex_size.x/2.0f, tex_size.y/2.0f)
+	sprite.setOrigin(tex_size.x / 2.0f, tex_size.y / 2.0f);
 }
 
 GameObject::GameObject(const GameObject&)

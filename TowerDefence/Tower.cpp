@@ -12,7 +12,3 @@ Tower::Tower(sf::Vector2f position, float size_radius, sf::Texture* texture,
 Tower::~Tower()
 {
 }
-
-void Tower::Action()
-{
-}
