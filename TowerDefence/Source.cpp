@@ -11,9 +11,20 @@ int main()
 	RenderWindow win(VideoMode(800, 600), "TowerDefence");
 
 	Manager* MGR = Manager::GetInstance();
+
 	MSG* msg = new MSG;
 	msg->type = MsgType::Create;
 	msg->create.new_object = new ArrowTower({ 100, 100 }, 1);
+	MGR->SendMsg(msg);
+
+	msg = new MSG;
+	msg->type = MsgType::Create;
+	msg->create.new_object = new ArrowTower({ 100, 400 }, 1);
+	MGR->SendMsg(msg);
+
+	msg = new MSG;
+	msg->type = MsgType::Create;
+	msg->create.new_object = new ArrowTower({ 400, 100 }, 1);
 	MGR->SendMsg(msg);
 
 	while (win.isOpen())
