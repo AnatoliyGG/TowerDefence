@@ -1,4 +1,5 @@
 #include "Projectile.h"
+#include "VectorMath.h"
 
 using namespace sf;
 
@@ -15,7 +16,8 @@ Projectile::~Projectile()
 
 void Projectile::Move(float dt)
 {
-	direction = target_position;
+	direction = changeLength(target_position - position, velocity);
 
-
+	position.x += direction.x * dt;
+	position.y += direction.y * dt;
 }

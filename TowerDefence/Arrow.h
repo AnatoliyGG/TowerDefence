@@ -5,11 +5,11 @@
 class Arrow : public Projectile
 {
 protected:
-	GameObject* target_enemy;
+	GameObject* target;
 
 public:
-	Arrow();
-	Arrow(const Arrow&);
+	Arrow(sf::Vector2f position, float damage, sf::Vector2f direction, 
+		float velocity, GameObject* target);
 	~Arrow();
 
 	void Update(float dt);

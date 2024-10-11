@@ -59,8 +59,8 @@ void Manager::Update(float dt)
 		case MsgType::Death:
 		{
 			auto res = find(objs.begin(), objs.end(), m->death.who_to_die);
-			delete* res;
 			objs.erase(res);
+			delete* res;
 		} break;
 
 		case MsgType::Create:
