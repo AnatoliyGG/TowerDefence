@@ -14,18 +14,28 @@ int main()
 
 	MSG* msg = new MSG;
 	msg->type = MsgType::Create;
-	msg->create.new_object = new ArrowTower({ 100, 100 }, 1);
+	ArrowTower* a1 = new ArrowTower({ 100, 100 }, 1);
+	msg->create.new_object = a1;
 	MGR->SendMsg(msg);
 
 	msg = new MSG;
 	msg->type = MsgType::Create;
-	msg->create.new_object = new ArrowTower({ 100, 400 }, 1);
+	ArrowTower* a2 = new ArrowTower({ 100, 400 }, 1);
+	msg->create.new_object = a2;
 	MGR->SendMsg(msg);
 
 	msg = new MSG;
 	msg->type = MsgType::Create;
-	msg->create.new_object = new ArrowTower({ 400, 100 }, 1);
+	ArrowTower* a3 = new ArrowTower({ 400, 100 }, 1);
+	msg->create.new_object = a3;
 	MGR->SendMsg(msg);
+
+	a1->target_locked = a2;
+	a2->target_locked = a3;
+	a3->target_locked = a1;
+
+	Clock clock;
+	clock.restart();
 
 	while (win.isOpen())
 	{
@@ -34,7 +44,7 @@ int main()
 		{
 			if (event.type == sf::Event::Closed) win.close();
 		}
-		MGR->Update(0.001);
+		MGR->Update(clock.restart().asSeconds());
 
 		win.clear({255, 255, 255, 255});
 		MGR->DrawObjects(win);

@@ -1,3 +1,2 @@
-﻿  Source.cpp
-C:\Users\AnatoliyGG\source\repos\TowerDefence\TowerDefence\Source.cpp(37,15): warning C4305: 'argument': truncation from 'double' to 'float'
+﻿  Arrow.cpp
   TowerDefence.vcxproj -> C:\Users\AnatoliyGG\source\repos\TowerDefence\x64\Debug\TowerDefence.exe

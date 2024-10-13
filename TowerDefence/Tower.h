@@ -6,7 +6,7 @@ class Tower :   public GameObject
 protected:
     int level;
     int cost;
-    float cooldown;
+    float cooldown_time;
     float cooldown_current;
     float action_range;
 

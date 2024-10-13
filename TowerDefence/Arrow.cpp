@@ -2,10 +2,10 @@
 #include "VectorMath.h"
 #include "Manager.h"
 
-Arrow::Arrow(sf::Vector2f position, float damage, sf::Vector2f direction, 
+Arrow::Arrow(sf::Vector2f position, float damage,
 	float velocity, GameObject* target) :
-	Projectile(position, 8.f, LoadTexture("TowerDefecne\\images\\Projectile\\arrow_1.png", { 0, 0, 32, 32 }),
-		damage, direction, velocity), target(target)
+	Projectile(position, 8.f, LoadTexture("TowerDefence\\images\\Projectile\\arrow1.png", { 0, 0, 32, 32 }),
+		damage, {0.f, 0.f}, velocity), target(target)
 {
 
 }
@@ -20,7 +20,7 @@ void Arrow::Update(float dt)
 	target_position = target->Position();
 	Move(dt);
 
-	if (getLength(target_position - position) < 2)
+	if (getLength(target_position - position) < velocity*dt)
 	{
 		MSG* m = new MSG;
 		m->type = MsgType::Death;

@@ -8,7 +8,7 @@ protected:
 	GameObject* target;
 
 public:
-	Arrow(sf::Vector2f position, float damage, sf::Vector2f direction, 
+	Arrow(sf::Vector2f position, float damage,
 		float velocity, GameObject* target);
 	~Arrow();
 
